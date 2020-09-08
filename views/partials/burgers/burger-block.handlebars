@@ -1,10 +1,20 @@
-<li>
+{{!-- <li>
     {{burger_name}}
-    
+
     <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-{{!-- "{{devoured}}">  --}}
         {{#if devoured}}Devour!{{else}}Make it again!{{/if}}
     </button>
 
-    {{!-- future functionality <button class="delete-burger" data-id="{{this.id}}">DELETE!</button> --}}
-</li>
+    future functionality <button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+</li> --}}
+<div class="row justify-content-center">
+    <div class="card w-75">
+        <div class="card-body center-me">
+            <h5 class="card-title">{{burger_name}}</h5>
+            <button class="change-devoured btn {{#if devoured}} btn-danger {{else}} btn-success{{/if}}" data-id="{{id}}"
+                data-newdevoured="{{devoured}}">
+                {{#if devoured}}Devour!{{else}}Make it again!{{/if}}
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,7 +1,35 @@
+
+html, body {
+  background-color: #ffdb58;
+}
+
 li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+  }
+
+  .jumbo-background{
+  background-color: #e01709;
+  }
+
+  #jumbo-image{
+  height: 100px; 
+  width: 100px; 
+  display: inline-block;
+  }
+
+  #jumbo-text{
+  display: inline-block;
+  }
+  
+  .center-me-vertically{
+  display: flex;
+  align-items: center;
+  }
+
+  .center-me{
+    text-align: center;
   }
   
   .label {

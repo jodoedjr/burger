@@ -1,5 +1,6 @@
 //Import Express - for server
 const express = require("express");
+const path = require("path");
 
 //create PORT, 8080 for local testing, process.env.PORT for deployment on web server
 const PORT = process.env.PORT || 8080; 
@@ -9,6 +10,7 @@ const app = express();
 
 //Set server to serve static content from the "public" directory
 app.use(express.static("public"));
+app.use("/assets",express.static("asset"));
 
 // Parse application body as JSON
 app.use(express.urlencoded({ extended: true}));
