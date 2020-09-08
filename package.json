@@ -2,7 +2,7 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "Burger application showcasing Node, Express, MySQL, Handlebars, and a homemade ORM.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
