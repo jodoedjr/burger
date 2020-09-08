@@ -1,8 +1,8 @@
 //Import express (for router), and the burger model for db access
 const express = require("express");
-const burger = require("../models/burger");
-const cat = require("../../../01-Activities/17-CatsApp/Solved/models/cat");
+const burger = require("../models/burger")
 
+//create router
 const router = express.Router();
 
 ////////////////////////////////////////////////
@@ -48,6 +48,8 @@ router.put("/api/burgers/:id", function (req, res) {
         }
     );
 });
+
+//NO DELETE FUNCTION
 
 // Export routes for server.js
 module.exports = router;

@@ -1,4 +1,4 @@
-// Require MySQL
+// Require MySQL - the node module
 const mysql = require("mysql");
 
 //create connection
