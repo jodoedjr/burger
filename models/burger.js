@@ -15,7 +15,7 @@ const burger = {
         });
     },
     updateOne: function(objColVals, condition, cb){//objColVals is a object of "column name": "value" pairs
-        orm.updateOne("burgers", objColVals, contion, function(res) {
+        orm.updateOne("burgers", objColVals, condition, function(res) {
             cb(res);
         })
     }

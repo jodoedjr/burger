@@ -2,10 +2,11 @@
 const mysql = require("mysql");
 
 //create connection
+let connection;
 if (process.env.JAWSDB_URL) { // HEROKU deployment
-    const connection = mysql.createConnection(process.env.JAWSDB_URL);
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else { // localhost deployment
-    const connection = mysql.createConnection(
+    connection = mysql.createConnection(
         {
             host: "localhost",
             port: 3306,
