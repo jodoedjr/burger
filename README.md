@@ -30,6 +30,7 @@ Consider installing a MySQL GUI editor for ease of use, or use the terminal func
 Please prepare your MySQL database before starting the server.\
 `npm start` runs the script `node server.js`\
 2020/09/10: Test Deployment at https://morning-ridge-85001.herokuapp.com/
+![Image of Deployed Site, Desktop Size](https://github.com/jodoedjr/burger/blob/master/public/assets/images/morning-ridge-85001-herokuapp-com-1024x768desktop.png)
 
 
 ## License
