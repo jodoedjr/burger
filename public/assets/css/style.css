@@ -1,47 +1,55 @@
-
-html, body {
+html,
+body {
   background-color: #ffdb58;
+  height: 100%;
 }
 
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+}
 
-  .jumbo-background{
+.content {
+  flex: 1 0 auto;
+}
+
+.jumbo-background {
   background-color: #e01709;
-  }
+}
 
-  #jumbo-image{
-  height: 100px; 
-  width: 100px; 
+#jumbo-image {
+  height: 100px;
+  width: 100px;
   display: inline-block;
-  }
+}
 
-  #jumbo-text{
+#jumbo-text {
   display: inline-block;
-  }
-  
-  .center-me-vertically{
+}
+
+.center-me-vertically {
   display: flex;
   align-items: center;
-  }
+}
 
-  .center-me{
-    text-align: center;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
+.center-me {
+  text-align: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+.footer {
+  flex-shrink: 0;
+}
