@@ -2,7 +2,11 @@
 
 ## Description 
 
-This application showcases the capabilities of using Node, Express, MySQL, Handlebars, and a homemade ORM to create a web application with persistent data.\Users may describe their desired burger and select if it has been devoured or not. Uneaten burgers will appear in the left column, while devoured burgers will appear in the right column. Buttons on the burger cards allow the user to 'Devour' or 'Make it again', which will change the value of the `devoured` field in the MySQL databse.\Burgers will have css alignment classes selectively applied by the handlebars scripting depending on their `devoured` value.\The ORM.js file generalizes MySQL queries for use by the burger.js model and burgercontroller.js server route controller.\
+This application showcases the capabilities of using Node, Express, MySQL, Handlebars, and a homemade ORM to create a web application with persistent data.\
+Users may describe their desired burger and select if it has been devoured or not. Uneaten burgers will appear in the left column, while devoured burgers will appear in the right column.\
+Buttons on the burger cards allow the user to 'Devour' or 'Make it again', which will change the value of the `devoured` field in the MySQL database.\
+Burgers will have css alignment classes selectively applied by the handlebars scripting depending on their `devoured` value.\
+The ORM.js file generalizes MySQL queries for use by the burger.js model and burgercontroller.js server route controller.
 
 
 ## Table of Contents
@@ -17,12 +21,15 @@ This application showcases the capabilities of using Node, Express, MySQL, Handl
 
 ## Installation
 
-`npm install` - will install mysql-cli locally. Consider installing a MySQL GUI editor for ease of use, or use the terminal functionality of mysql-cli.
+`npm install` - will install mysql-cli locally.\
+Consider installing a MySQL GUI editor for ease of use, or use the terminal functionality of mysql-cli.
 
 
 ## Usage 
 
-Please prepare your MySQL database before starting the server. `npm start` runs the script `node server.js`
+Please prepare your MySQL database before starting the server.\
+`npm start` runs the script `node server.js`\
+2020/09/10: Test Deployment at https://morning-ridge-85001.herokuapp.com/
 
 
 ## License
